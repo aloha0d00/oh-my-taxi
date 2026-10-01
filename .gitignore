@@ -1,0 +1,45 @@
+# ---- Java / Maven ----
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+.settings/
+.project
+.classpath
+.factorypath
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Env / Secrets ----
+.env
+.env.local
+application-local.yml
+application-prod.yml
+
+# ---- 本地/工具目录 ----
+.codeartsdoer/
